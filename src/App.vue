@@ -1,5 +1,5 @@
 <template>
-  <div class="bg-black h-screen">
+  <div class="h-screen">
     <MyHeader />
   </div>
 </template>
@@ -18,8 +18,8 @@ export default {
 <style>
 @import "~uikit/dist/css/uikit.min.css";
 
-* {
-  background-color: #000;
+body {
+  background-color: #fff;
   color: #d9d9d9;
 }
 

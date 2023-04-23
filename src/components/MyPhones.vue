@@ -1,8 +1,6 @@
 <template>
-  <div
-    class="w-[400px] h-[400px] rounded-full absolute z-20 top-1/2 -translate-y-1/2 right-1/4 scale-125 border-2 border-light"
-  >
-    <img src="@/assets/img/Phones.png" alt="Phones" class="bg-transparent scale-125" />
+  <div class="flex flex-col">
+    <img src="@/assets/img/deviceframes1.png" alt="Phone" class="transition-all" />
   </div>
 </template>
 
