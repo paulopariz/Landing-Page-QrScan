@@ -2,29 +2,13 @@
   <div>
     <MyEclipse class="hidden" />
 
-    <!-- <nav class="fixed z-40 top-0 py-9 bg-transparent w-screen">
-      <div class="px-16 flex items-center justify-between bg-transparent w-3/4 m-auto">
-        <img src="@/assets/img/logo.svg" alt="Logo" class="w-12 bg-transparent" />
+    <nav class="py-9 px-20 bg-transparent w-screen flex items-center justify-center">
+      <div class="bg-black h-[0.1px] w-full"></div>
+      <img src="@/assets/img/Group.svg" alt="Logo" class="w-[70px] px-5" />
+      <div class="bg-black h-[0.1px] w-full"></div>
+    </nav>
 
-        <div class="flex items-center gap-4 bg-transparent">
-          <button
-            class="text-black transition-all font-medium text-sm px-5 py-2 border-2 border-black bg-light"
-          >
-            Acessar QR-Scan
-          </button>
-
-          <button
-            class="text-black transition-all font-medium text-sm px-5 py-2 border-2 border-black bg-light"
-          >
-            Repositório
-          </button>
-        </div>
-      </div>
-    </nav> -->
-
-    <header
-      class="flex items-center justify-between absolute top-1/2 left-1/2 w-4/5 -translate-x-1/2 -translate-y-1/2"
-    >
+    <header class="flex items-center justify-between m-auto w-4/5">
       <div class="flex flex-col gap-7 w-5/12">
         <h1 class="text-black font-medium text-6xl">
           Gere e escaneie QR Codes de forma fácil
@@ -38,15 +22,12 @@
         </p>
 
         <div class="flex w-full items-center justify-between gap-3 mt-3">
-          <button
-            class="bg-light text-black font-medium tracking-wide px-6 py-3 w-full border-2 border-black"
-          >
-            Acessar QR-Scan
+          <button class="bg-light py-3 px-5 text-black transition-all">
+            <span class="transition-all font-medium">Acessar QR-Scan</span>
           </button>
-          <button
-            class="bg-light text-black font-medium tracking-wide px-6 py-3 w-full border-2 border-black"
-          >
-            Acessar Repositório
+
+          <button class="bg-light py-3 px-5 text-black transition-all">
+            <span class="transition-all font-medium">Acessar Repositório</span>
           </button>
         </div>
       </div>
@@ -65,4 +46,44 @@ export default {
 };
 </script>
 
-<style></style>
+<style>
+button {
+  background-color: #fdb623;
+  border: none;
+  display: inline-block;
+  font-size: 15px;
+  font-weight: 600;
+  width: 100%;
+  text-transform: uppercase;
+  cursor: pointer;
+  transform: skew(-21deg);
+}
+
+span {
+  display: inline-block;
+  transform: skew(21deg);
+}
+
+button::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  right: 100%;
+  left: 0;
+  background: rgb(20, 20, 20);
+  opacity: 0;
+  z-index: -1;
+  transition: all 0.5s;
+}
+
+button:hover {
+  color: #fdb623;
+}
+
+button:hover::before {
+  left: 0;
+  right: 0;
+  opacity: 1;
+}
+</style>

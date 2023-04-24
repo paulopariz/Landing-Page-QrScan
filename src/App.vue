@@ -1,16 +1,22 @@
 <template>
   <div class="h-screen">
     <MyHeader />
+
+    <div>
+      <CarouselQrScan />
+    </div>
   </div>
 </template>
 
 <script>
+import CarouselQrScan from "./components/CarouselQrScan.vue";
 import MyHeader from "./components/MyHeader.vue";
 
 export default {
   name: "App",
   components: {
     MyHeader,
+    CarouselQrScan,
   },
 };
 </script>
