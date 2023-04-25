@@ -3,7 +3,7 @@
     <MyEclipse class="hidden" />
 
     <nav
-      class="py-9 px-20 w-screen flex items-center justify-center fixed z-50 bg-white/20 backdrop-blur-md"
+      class="py-9 px-20 w-screen flex items-center justify-center fixed z-50 backdrop-blur-md"
     >
       <div class="bg-black h-[0.1px] w-full"></div>
       <img src="@/assets/img/Group.svg" alt="Logo" class="w-[70px] px-5" />
@@ -36,7 +36,7 @@
         </div>
       </div>
 
-      <MyPhones />
+      <MyPhone />
     </header>
     <br />
     <br />
@@ -102,14 +102,14 @@
 
 <script>
 import MyEclipse from "./MyEclipse.vue";
-import MyPhones from "./MyPhones.vue";
+import MyPhone from "./MyPhone.vue";
 export default {
-  components: { MyEclipse, MyPhones },
+  components: { MyEclipse, MyPhone },
   name: "MyNav",
 };
 </script>
 
-<style>
+<style scoped>
 button {
   border: none;
   display: inline-block;

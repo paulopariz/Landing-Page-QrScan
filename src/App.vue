@@ -3,20 +3,20 @@
     <MyHeader />
 
     <div>
-      <CarouselQrScan />
+      <MyTechs />
     </div>
   </div>
 </template>
 
 <script>
-import CarouselQrScan from "./components/CarouselQrScan.vue";
+import MyTechs from "./components/MyTechs.vue";
 import MyHeader from "./components/MyHeader.vue";
 
 export default {
   name: "App",
   components: {
     MyHeader,
-    CarouselQrScan,
+    MyTechs,
   },
 };
 </script>
@@ -26,7 +26,6 @@ export default {
 
 body {
   background-color: #fff;
-  color: #d9d9d9;
 }
 
 h1,
@@ -36,5 +35,16 @@ p,
 span,
 a {
   font-family: "DM Sans", sans-serif;
+}
+
+*::-webkit-scrollbar {
+  width: 7px;
+}
+*::-webkit-scrollbar-track {
+  background: transparent;
+}
+*::-webkit-scrollbar-thumb {
+  background-color: black;
+  border-radius: 20px;
 }
 </style>

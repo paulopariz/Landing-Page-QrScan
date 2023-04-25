@@ -1,7 +1,7 @@
 <template>
   <div class="flex flex-col items-end w-4/5">
     <img
-      src="@/assets/img/Untitled.png"
+      src="@/assets/img/BgHeader.png"
       alt="Phone"
       class="transition-all rounded-3xl w-[70%]"
     />
