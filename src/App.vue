@@ -4,6 +4,21 @@
 
     <div>
       <MyTechs />
+
+      <SectionPresentation />
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
     </div>
   </div>
 </template>
@@ -11,12 +26,14 @@
 <script>
 import MyTechs from "./components/MyTechs.vue";
 import MyHeader from "./components/MyHeader.vue";
+import SectionPresentation from "./components/SectionPresentation.vue";
 
 export default {
   name: "App",
   components: {
     MyHeader,
     MyTechs,
+    SectionPresentation,
   },
 };
 </script>
@@ -38,13 +55,6 @@ a {
 }
 
 *::-webkit-scrollbar {
-  width: 7px;
-}
-*::-webkit-scrollbar-track {
-  background: transparent;
-}
-*::-webkit-scrollbar-thumb {
-  background-color: black;
-  border-radius: 20px;
+  width: 1px;
 }
 </style>
