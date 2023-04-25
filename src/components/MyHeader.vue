@@ -2,14 +2,18 @@
   <div>
     <MyEclipse class="hidden" />
 
-    <nav class="py-9 px-20 bg-transparent w-screen flex items-center justify-center">
+    <nav
+      class="py-9 px-20 w-screen flex items-center justify-center fixed z-50 bg-white/20 backdrop-blur-md"
+    >
       <div class="bg-black h-[0.1px] w-full"></div>
       <img src="@/assets/img/Group.svg" alt="Logo" class="w-[70px] px-5" />
       <div class="bg-black h-[0.1px] w-full"></div>
     </nav>
 
-    <header class="flex items-center justify-between m-auto w-4/5">
-      <div class="flex flex-col gap-7 w-5/12">
+    <header
+      class="flex items-center justify-between w-11/12 absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2"
+    >
+      <div class="flex flex-col gap-7 w-2/3">
         <h1 class="text-black font-medium text-6xl">
           Gere e escaneie QR Codes de forma fácil
         </h1>
@@ -22,11 +26,11 @@
         </p>
 
         <div class="flex w-full items-center justify-between gap-3 mt-3">
-          <button class="bg-light py-3 px-5 text-black transition-all">
+          <button class="bg-light py-4 px-5 text-black transition-all btn2">
             <span class="transition-all font-medium">Acessar QR-Scan</span>
           </button>
 
-          <button class="bg-light py-3 px-5 text-black transition-all">
+          <button class="bg-black py-4 px-5 text-light transition-all btn1">
             <span class="transition-all font-medium">Acessar Repositório</span>
           </button>
         </div>
@@ -34,7 +38,66 @@
 
       <MyPhones />
     </header>
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
   </div>
+  <br />
 </template>
 
 <script>
@@ -48,7 +111,6 @@ export default {
 
 <style>
 button {
-  background-color: #fdb623;
   border: none;
   display: inline-block;
   font-size: 15px;
@@ -64,26 +126,42 @@ span {
   transform: skew(21deg);
 }
 
-button::before {
+.btn1::before {
   content: "";
   position: absolute;
   top: 0;
   bottom: 0;
   right: 100%;
   left: 0;
-  background: rgb(20, 20, 20);
-  opacity: 0;
+  background: #fdb623;
+  opacity: 1;
+  z-index: -1;
+  transition: all 0.5s;
+}
+
+.btn2::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  right: 100%;
+  left: 0;
+  background: #000;
+  opacity: 1;
   z-index: -1;
   transition: all 0.5s;
 }
 
 button:hover {
+  color: #000;
+}
+
+button:hover:nth-child(1) {
   color: #fdb623;
 }
 
 button:hover::before {
   left: 0;
   right: 0;
-  opacity: 1;
 }
 </style>

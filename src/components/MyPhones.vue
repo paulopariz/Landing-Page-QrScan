@@ -1,6 +1,10 @@
 <template>
-  <div class="flex flex-col">
-    <img src="@/assets/img/deviceframes1.png" alt="Phone" class="transition-all" />
+  <div class="flex flex-col items-end w-4/5">
+    <img
+      src="@/assets/img/Untitled.png"
+      alt="Phone"
+      class="transition-all rounded-3xl w-[70%]"
+    />
   </div>
 </template>
 
