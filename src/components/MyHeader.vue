@@ -2,9 +2,7 @@
   <div>
     <MyEclipse class="hidden" />
 
-    <nav
-      class="py-9 px-20 w-screen flex items-center justify-center fixed z-50 backdrop-blur-md"
-    >
+    <nav class="py-9 px-20 w-full flex items-center justify-center backdrop-blur-md">
       <div class="bg-black h-[0.1px] w-full"></div>
       <img src="@/assets/img/Group.svg" alt="Logo" class="w-[70px] px-5" />
       <div class="bg-black h-[0.1px] w-full"></div>
@@ -38,20 +36,6 @@
 
       <MyPhone />
     </header>
-    <br />
-    <br />
-    <br />
-    <br />
-    <br />
-    <br />
-    <br />
-    <br />
-    <br />
-    <br />
-    <br />
-    <br />
-    <br />
-    <br />
     <br />
     <br />
     <br />

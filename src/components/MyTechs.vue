@@ -1,6 +1,6 @@
 <template>
   <div>
-    <div class="absolute right-0 z-10 -bottom-1/4 w-2/3 px-28 py-14 bg-black">
+    <div class="absolute right-0 z-10 -bottom-1/3 w-2/3 px-28 py-14 bg-black">
       <div class="flex items-center justify-between">
         <div v-for="tech in techs" :key="tech.id" class="flex items-center gap-3 w-64">
           <img :src="tech.icon" :alt="tech.name" class="w-16" />
@@ -15,7 +15,7 @@
     </div>
 
     <div
-      class="absolute right-0 -bottom-[27%] z-0 w-[67.6%] px-8 py-20 bg-transparent border-2 border-light border-r-0"
+      class="absolute right-0 -bottom-[35%] z-0 w-[67.6%] px-8 py-20 bg-transparent border-2 border-light border-r-0"
     ></div>
   </div>
 </template>
