@@ -6,6 +6,8 @@
       <MyTechs />
 
       <SectionPresentation />
+
+      <SectionHistory />
     </div>
   </div>
 </template>
@@ -14,6 +16,7 @@
 import MyTechs from "./components/MyTechs.vue";
 import MyHeader from "./components/MyHeader.vue";
 import SectionPresentation from "./components/SectionPresentation.vue";
+import SectionHistory from "./components/SectionHistory.vue";
 
 export default {
   name: "App",
@@ -21,6 +24,7 @@ export default {
     MyHeader,
     MyTechs,
     SectionPresentation,
+    SectionHistory,
   },
 };
 </script>
