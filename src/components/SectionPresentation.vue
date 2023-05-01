@@ -1,9 +1,11 @@
 <template>
   <section class="w-11/12 m-auto mt-96">
     <div class="flex justify-between items-center">
-      <h1 class="text-5xl font-bold w-1/4 text-black">Conheça mais sobre o QR-Scan</h1>
+      <h1 class="text-5xl font-bold w-1/4 text-black leading-tight">
+        Conheça mais sobre o QR-Scan
+      </h1>
 
-      <p class="text-black w-2/5 tracking-wide">
+      <p class="text-black w-2/5 tracking-wide leading-7">
         O site oferece diversas funcionalidades feitas para você. Você pode gerar seus
         próprios QR codes e baixá-los para usá-los onde e como quiser. Além disso,
         lembre-se de que você também pode escanear outros QR codes para acessá-los. Que
@@ -17,7 +19,7 @@
       >
         <div class="flex flex-col gap-2 w-11/12 items-start">
           <h1 class="text-3xl font-medium text-black">Gerar QR-Code</h1>
-          <p class="text-sm font-normal text-black">
+          <p class="text-sm font-normal text-black leading-6">
             Com o QR-Scan, você pode gerar códigos QR para diversas redes sociais e sites,
             simplesmente inserindo um nome de usuário ou URL correto. Seu código QR estará
             pronto em questão de segundos.
@@ -32,7 +34,7 @@
         >
           <div class="flex flex-col gap-2 items-start absolute">
             <h1 class="text-3xl font-medium text-white">QR-Code gerado</h1>
-            <p class="text-sm font-normal text-white-2 w-4/5">
+            <p class="text-sm font-normal text-white-2 w-4/5 leading-6">
               Após gerar o seu QR Code, você terá a opção de fazer o download do mesmo
               para utilizá-lo como quiser.
             </p>
@@ -47,7 +49,7 @@
         <div class="w-full h-1/2 bg-white-2 flex items-center justify-between px-20 py-5">
           <div class="flex flex-col gap-2 items-start">
             <h1 class="text-3xl font-medium text-black">Escanear QR-Code</h1>
-            <p class="text-sm font-normal text-black w-4/5">
+            <p class="text-sm font-normal text-black w-4/5 leading-6">
               Leia vários QR Codes aqui com sucesso! Lembre-se de limpar a câmera e
               centralizar o QR Code para que seja lido com precisão.
             </p>

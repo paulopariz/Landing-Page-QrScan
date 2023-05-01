@@ -2,7 +2,7 @@
   <div class="h-screen">
     <MyHeader />
 
-    <div>
+    <div class="hidden">
       <MyTechs />
 
       <SectionPresentation />
@@ -30,22 +30,15 @@ export default {
 </script>
 
 <style>
-@import "~uikit/dist/css/uikit.min.css";
+/* @import "~uikit/dist/css/uikit.min.css"; */
 
 body {
   background-color: #fff;
-}
-
-h1,
-h2,
-h3,
-p,
-span,
-a {
+  user-select: none;
   font-family: "DM Sans", sans-serif;
 }
 
 *::-webkit-scrollbar {
-  width: 1px;
+  width: 0px;
 }
 </style>

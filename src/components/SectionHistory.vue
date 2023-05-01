@@ -1,10 +1,13 @@
 <template>
   <div class="w-full h-screen p-20 bg-black mt-96 m-auto">
-    <div class="mt-16 flex items-start justify-between w-3/4 m-auto">
-      <img src="@/assets/img/PhoneHistory.png" class="w-80" alt="Phone History" />
+    <MyEclipse class="right-1" />
+    <div
+      class="mt-16 flex items-start justify-between w-3/4 absolute left-1/2 -translate-x-1/2"
+    >
+      <img src="@/assets/img/Untitled.png" class="w-96" alt="Phone History" />
 
-      <div class="flex justify-end">
-        <h1 class="text-5xl font-bold w-2/3 text-light">
+      <div class="flex justify-end w-1/2">
+        <h1 class="text-5xl font-bold text-white leading-snug">
           Gerencie seu histórico "Scan" e "Gerados"
         </h1>
       </div>
@@ -13,8 +16,11 @@
 </template>
 
 <script>
+import MyEclipse from "./MyEclipse.vue";
+
 export default {
   name: "SectionHistory",
+  components: { MyEclipse },
 };
 </script>
 
