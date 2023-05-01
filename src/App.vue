@@ -7,7 +7,7 @@
 
       <SectionPresentation />
 
-      <SectionHistory class="hidden" />
+      <SectionHistory />
     </div>
   </div>
 </template>
@@ -36,6 +36,7 @@ body {
   background-color: #fff;
   user-select: none;
   font-family: "DM Sans", sans-serif;
+  color: #fff;
 }
 
 *::-webkit-scrollbar {
