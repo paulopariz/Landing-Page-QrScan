@@ -9,7 +9,7 @@
     </nav>
 
     <header
-      class="flex items-center justify-between m-auto w-full lg:absolute lg:top-1/2 lg:left-1/2 lg:-translate-x-1/2 lg:-translate-y-1/2 lg:w-11/12 max-lg:flex-col max-lg:w-full max-lg:gap-11 max-lg:mt-5 max-sm:gap-6"
+      class="flex items-center justify-between m-auto mt-14 w-full lg:w-11/12 max-lg:flex-col max-lg:w-full max-lg:gap-11 max-lg:mt-5 max-sm:gap-6"
     >
       <div
         class="flex flex-col gap-7 w-3/5 max-xl:w-2/3 max-lg:gap-4 max-md:w-11/12 max-sm:w-full max-sm:px-6 max-sm:gap-2"
@@ -50,50 +50,6 @@
 
       <MyPhone />
     </header>
-    <br />
-    <br />
-    <br />
-    <br />
-    <br />
-    <br />
-    <br />
-    <br />
-    <br />
-    <br />
-    <br />
-    <br />
-    <br />
-    <br />
-    <br />
-    <br />
-    <br />
-    <br />
-    <br />
-    <br />
-    <br />
-    <br />
-    <br />
-    <br />
-    <br />
-    <br />
-    <br />
-    <br />
-    <br />
-    <br />
-    <br />
-    <br />
-    <br />
-    <br />
-    <br />
-    <br />
-    <br />
-    <br />
-    <br />
-    <br />
-    <br />
-    <br />
-    <br />
-    <br />
   </div>
   <br />
 </template>

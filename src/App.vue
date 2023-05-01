@@ -5,7 +5,7 @@
     <div>
       <MyTechs />
 
-      <SectionPresentation class="hidden" />
+      <SectionPresentation />
 
       <SectionHistory class="hidden" />
     </div>

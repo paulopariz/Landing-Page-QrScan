@@ -1,8 +1,6 @@
 <template>
   <div>
-    <div
-      class="absolute left-1/2 -translate-x-1/2 z-10 -bottom-1/3 w-full px-36 py-14 bg-black max-xl:px-20 max-lg:px-6 max-md:-bottom-1/2"
-    >
+    <div class="w-full px-36 py-14 mt-36 bg-black max-xl:px-20 max-lg:px-6">
       <div class="flex items-center justify-between max-md:flex-col max-md:gap-7">
         <div v-for="tech in techs" :key="tech.id" class="flex items-center gap-3 w-64">
           <img :src="tech.icon" :alt="tech.name" class="w-16 max-lg:w-12 max-md:w-10" />
