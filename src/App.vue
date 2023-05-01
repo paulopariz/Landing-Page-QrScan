@@ -2,12 +2,12 @@
   <div class="h-screen">
     <MyHeader />
 
-    <div class="hidden">
+    <div>
       <MyTechs />
 
-      <SectionPresentation />
+      <SectionPresentation class="hidden" />
 
-      <SectionHistory />
+      <SectionHistory class="hidden" />
     </div>
   </div>
 </template>
