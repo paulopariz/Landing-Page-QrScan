@@ -1,6 +1,6 @@
 <template>
   <div
-    class="w-full h-screen p-20 bg-black mt-36 m-auto flex items-center justify-between max-lg:flex-col max-lg:items-center max-lg:gap-10 max-xl:px-12 max-md:px-8 max-lg:h-full"
+    class="w-full p-20 pb-96 bg-black mt-36 m-auto flex items-center justify-between max-lg:flex-col max-lg:items-center max-lg:gap-10 max-xl:px-12 max-md:px-8"
   >
     <img
       src="@/assets/img/PhoneHistory.png"

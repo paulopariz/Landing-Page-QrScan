@@ -8,7 +8,44 @@
       <SectionPresentation />
 
       <SectionHistory />
+
+      <SectionEnter />
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
     </div>
+    <br />
   </div>
 </template>
 
@@ -17,6 +54,7 @@ import MyTechs from "./components/MyTechs.vue";
 import MyHeader from "./components/MyHeader.vue";
 import SectionPresentation from "./components/SectionPresentation.vue";
 import SectionHistory from "./components/SectionHistory.vue";
+import SectionEnter from "./components/SectionEnter.vue";
 
 export default {
   name: "App",
@@ -25,6 +63,7 @@ export default {
     MyTechs,
     SectionPresentation,
     SectionHistory,
+    SectionEnter,
   },
 };
 </script>
