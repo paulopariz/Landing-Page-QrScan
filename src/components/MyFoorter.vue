@@ -31,10 +31,10 @@
           </div>
 
           <p
-            class="mx-auto mt-6 max-w-md text-center leading-relaxed text-gray-500 lg:text-left"
+            class="mx-auto mt-6 max-w-md text-center leading-relaxed text-white-2/60 lg:text-left"
           >
-            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Incidunt
-            consequuntur amet culpa cum itaque neque.
+            Conheça todas as funcionalidades do QR-Scan e acompanhe-me nas redes sociais
+            para ver mais do meu trabalho.
           </p>
         </div>
 
@@ -43,34 +43,50 @@
             class="flex flex-wrap justify-center gap-6 md:gap-8 lg:justify-end lg:gap-12"
           >
             <li>
-              <a class="text-gray-700 transition hover:text-gray-700/75" href="/">
-                About
+              <a
+                class="text-white transition-all hover:text-light"
+                target="_blank"
+                href="https://github.com/paulopariz"
+              >
+                Github
               </a>
             </li>
 
             <li>
-              <a class="text-gray-700 transition hover:text-gray-700/75" href="/">
-                Services
+              <a
+                class="text-white transition-all hover:text-light"
+                target="_blank"
+                href="https://paulopariz.vercel.app/"
+              >
+                Portfólio
               </a>
             </li>
 
             <li>
-              <a class="text-gray-700 transition hover:text-gray-700/75" href="/">
-                Projects
+              <a
+                class="text-white transition-all hover:text-light"
+                target="_blank"
+                href="https://www.linkedin.com/in/paulopariz/"
+              >
+                LinkedIn
               </a>
             </li>
 
             <li>
-              <a class="text-gray-700 transition hover:text-gray-700/75" href="/">
-                Blog
+              <a
+                class="text-white transition-all hover:text-light"
+                target="_blank"
+                href="https://www.instagram.com/parizpaulo_/"
+              >
+                Instagram
               </a>
             </li>
           </ul>
         </nav>
       </div>
 
-      <p class="mt-12 text-center text-sm text-gray-500 lg:text-right">
-        Copyright &copy; 2022. All rights reserved.
+      <p class="mt-12 text-center text-sm text-white-2/60 lg:text-right">
+        Paulo Pariz &copy; 2023. Todos os direitos reservados
       </p>
     </div>
   </footer>
