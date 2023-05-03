@@ -74,7 +74,7 @@ export default {
 body {
   background-color: #fff;
   user-select: none;
-  font-family: "DM Sans", sans-serif;
+  font-family: "Saira", sans-serif;
   color: #fff;
 }
 

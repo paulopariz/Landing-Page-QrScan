@@ -1,20 +1,20 @@
 <template>
   <div
-    class="w-full p-20 pb-96 bg-black mt-36 m-auto flex items-center justify-between max-lg:flex-col max-lg:items-center max-lg:gap-10 max-xl:px-12 max-md:px-8"
+    class="w-full p-20 pb-96 max-lg:pb-[450px] bg-black mt-36 m-auto flex items-center justify-between max-lg:flex-col max-lg:items-center max-lg:gap-10 max-xl:px-12 max-md:px-8"
   >
     <img
       src="@/assets/img/PhoneHistory.png"
-      class="w-96 max-lg:w-80"
+      class="w-96 max-lg:w-80 max-sm:w-72"
       alt="Phone History"
     />
 
     <div class="flex justify-end w-1/2 max-lg:justify-center max-lg:w-full">
       <div class="flex flex-col gap-6">
         <h1
-          class="text-4xl font-medium text-white leading-normal max-sm:text-3xl max-mn:text-2xl"
+          class="text-4xl font-medium text-white leading-4 max-sm:text-3xl max-mn:text-2xl"
         >
-          <span class="bg-light text-black px-0.5">Gerencie</span> seu histórico "Scan" e
-          "Gerados"
+          <span class="bg-light text-black px-0.5 leading-relaxed">Gerencie</span> seu
+          histórico "Scan" e "Gerados"
         </h1>
         <p
           class="text-white-2 leading-8 max-lg:leading-7 max-sm:text-sm max-mn:text-xs max-mn:leading-5"

@@ -4,7 +4,7 @@
       class="flex justify-between items-center max-lg:flex-col max-lg:items-start max-lg:gap-5"
     >
       <h1
-        class="text-5xl font-bold w-1/3 text-black leading-tight max-lg:w-10/12 max-lg:text-4xl max-sm:text-3xl max-sm:w-full maxx"
+        class="text-5xl font-medium w-1/3 text-black leading-tight max-lg:w-10/12 max-lg:text-4xl max-sm:text-3xl max-sm:w-full maxx"
       >
         Conheça mais sobre o QR-Scan
       </h1>
