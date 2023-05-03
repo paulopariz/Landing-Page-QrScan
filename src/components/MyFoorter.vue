@@ -1,10 +1,13 @@
 <template>
   <footer aria-label="Site Footer" class="bg-black pt-36">
-    <div class="relative mx-auto max-w-screen-xl px-4 py-16 sm:px-6 lg:px-8 lg:pt-24">
+    <div
+      class="relative mx-auto max-w-screen-xl px-4 py-16 sm:px-6 lg:px-8 lg:pt-24"
+      data-aos="fade-up"
+    >
       <div class="absolute end-4 top-4 sm:end-6 sm:top-6 lg:end-8 lg:top-8">
         <button
           @click="backToTop"
-          class="inline-block rounded-full bg-light p-2 text-black shadow transition sm:p-3 lg:p-4"
+          class="inline-block rounded-full bg-light p-2 text-black shadow transition-all hover:scale-95 sm:p-3 lg:p-4"
         >
           <span class="sr-only">Back to top</span>
 
@@ -42,7 +45,7 @@
           <ul
             class="flex flex-wrap justify-center gap-6 md:gap-8 lg:justify-end lg:gap-12"
           >
-            <li>
+            <li data-aos="fade-up" data-aos-duration="1100">
               <a
                 class="text-white transition-all hover:text-light"
                 target="_blank"
@@ -52,7 +55,7 @@
               </a>
             </li>
 
-            <li>
+            <li data-aos="fade-up" data-aos-duration="1500">
               <a
                 class="text-white transition-all hover:text-light"
                 target="_blank"
@@ -62,7 +65,7 @@
               </a>
             </li>
 
-            <li>
+            <li data-aos="fade-up" data-aos-duration="1800">
               <a
                 class="text-white transition-all hover:text-light"
                 target="_blank"
@@ -72,7 +75,7 @@
               </a>
             </li>
 
-            <li>
+            <li data-aos="fade-up" data-aos-duration="2000">
               <a
                 class="text-white transition-all hover:text-light"
                 target="_blank"
@@ -86,7 +89,8 @@
       </div>
 
       <p class="mt-12 text-center text-sm text-white-2/60 lg:text-right">
-        Paulo Pariz &copy; 2023. Todos os direitos reservados
+        <a href="https://paulopariz.vercel.app" target="_blank">Paulo Pariz</a> &copy;
+        2023. Todos os direitos reservados
       </p>
     </div>
   </footer>

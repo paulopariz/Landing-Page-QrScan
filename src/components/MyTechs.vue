@@ -2,7 +2,12 @@
   <div>
     <div class="w-full px-36 py-14 mt-36 bg-black max-xl:px-20 max-lg:px-6">
       <div class="flex items-center justify-between max-md:flex-col max-md:gap-7">
-        <div v-for="tech in techs" :key="tech.id" class="flex items-center gap-3 w-64">
+        <div
+          v-for="tech in techs"
+          :key="tech.id"
+          class="flex items-center gap-3 w-64"
+          data-aos="fade-up"
+        >
           <img :src="tech.icon" :alt="tech.name" class="w-16 max-lg:w-12 max-md:w-10" />
           <div class="flex flex-col gap-1">
             <h1 class="tracking-wide text-lg text-light font-semibold">

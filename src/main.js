@@ -4,6 +4,4 @@ import '@/assets/css/main.css'
 
 createApp(App).mount('#app')
 
-//  import UIkit from 'uikit';
-
-//  UIkit.use();
+import 'aos/dist/aos.css'

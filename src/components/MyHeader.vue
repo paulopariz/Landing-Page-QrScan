@@ -12,6 +12,7 @@
       class="flex items-center justify-between m-auto mt-14 w-full lg:w-11/12 max-lg:flex-col max-lg:w-full max-lg:gap-11 max-lg:mt-5 max-sm:gap-6"
     >
       <div
+        data-aos="fade-up"
         class="flex flex-col gap-7 w-3/5 max-xl:w-2/3 max-lg:gap-4 max-md:w-11/12 max-sm:w-full max-sm:px-6 max-sm:gap-2"
       >
         <h1
@@ -72,6 +73,7 @@ button {
   text-transform: uppercase;
   cursor: pointer;
   transform: skew(-21deg);
+  border-radius: 6px;
 }
 
 span {
@@ -90,6 +92,7 @@ span {
   opacity: 1;
   z-index: -1;
   transition: all 0.5s;
+  border-radius: 6px;
 }
 
 .btn2::before {
@@ -103,6 +106,7 @@ span {
   opacity: 1;
   z-index: -1;
   transition: all 0.5s;
+  border-radius: 6px;
 }
 
 button:hover {

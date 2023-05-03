@@ -8,7 +8,10 @@
       alt="Phone History"
     />
 
-    <div class="flex justify-end w-1/2 max-lg:justify-center max-lg:w-full">
+    <div
+      class="flex justify-end w-1/2 max-lg:justify-center max-lg:w-full"
+      data-aos="fade-up"
+    >
       <div class="flex flex-col gap-6">
         <h1
           class="text-4xl font-medium text-white leading-4 max-sm:text-3xl max-mn:text-2xl"

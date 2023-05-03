@@ -1,5 +1,5 @@
 <template>
-  <div class="h-screen">
+  <div class="h-screen" id="app">
     <MyHeader />
 
     <div>
@@ -17,6 +17,8 @@
 </template>
 
 <script>
+import AOS from "aos";
+
 import MyTechs from "./components/MyTechs.vue";
 import MyHeader from "./components/MyHeader.vue";
 import SectionPresentation from "./components/SectionPresentation.vue";
@@ -34,12 +36,16 @@ export default {
     SectionEnter,
     MyFoorter,
   },
+
+  mounted() {
+    AOS.init({
+      once: true,
+    });
+  },
 };
 </script>
 
-<style>
-/* @import "~uikit/dist/css/uikit.min.css"; */
-
+<style scoped>
 body {
   background-color: #fff;
   user-select: none;
@@ -49,5 +55,18 @@ body {
 
 *::-webkit-scrollbar {
   width: 0px;
+}
+
+#app {
+  animation: app 1.2s both;
+}
+
+@keyframes app {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
 }
 </style>
