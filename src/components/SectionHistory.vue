@@ -39,7 +39,7 @@
           <div v-for="item in sectionHistory" :key="item.id">
             <div class="flex flex-col items-start gap-3 w-56 max-sm:w-full">
               <img :src="item.icon" alt="Icon Bin" />
-              <h1 class="text-xl font-semibold">{{ item.title }}</h1>
+              <h1 class="text-xl font-semibold text-white">{{ item.title }}</h1>
               <p class="text-sm text-white-2">
                 {{ item.desc }}
               </p>

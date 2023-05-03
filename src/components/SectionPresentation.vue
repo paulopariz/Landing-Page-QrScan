@@ -26,6 +26,7 @@
     >
       <div
         data-aos="fade-up"
+        id="phone-one"
         class="w-2/5 h-full bg-light rounded-lg flex items-center justify-between flex-col gap-5 px-10 py-20 overflow-hidden max-lg:h-1/2 max-lg:w-full max-sm:py-6 max-sm:px-5"
       >
         <div class="flex flex-col gap-2 w-11/12 items-start max-sm:w-full">
@@ -41,13 +42,14 @@
         <img
           src="@/assets/img/PhoneGenerate.png"
           alt="Phone Generate"
-          class="w-72 max-lg:w-56 max-sm:w-48"
+          class="w-72 max-lg:w-56 max-sm:w-48 transition-all"
         />
       </div>
 
       <div class="flex flex-col gap-2.5 w-3/5 h-full max-lg:w-full">
         <div
           data-aos="fade-up"
+          id="phone-two"
           class="w-full h-1/2 bg-black rounded-lg flex flex-col justify-between gap-4 px-20 py-10 overflow-hiddenmax-sm:py-6 max-sm:px-5"
         >
           <div class="flex flex-col gap-2 items-start lg:absolute">
@@ -64,12 +66,13 @@
           <img
             src="@/assets/img/PhoneGenerated.png"
             alt="Phone Generated"
-            class="w-[500px] m-auto max-sm:w-full"
+            class="w-[500px] m-auto max-sm:w-full transition-all -z-50"
           />
         </div>
 
         <div
           data-aos="fade-up"
+          id="phone-three"
           class="w-full h-1/2 bg-white-2 rounded-lg flex items-center justify-between px-20 py-5 overflow-hidden max-sm:flex-col max-sm:py-6 max-sm:px-5 max-sm:gap-5"
         >
           <div class="flex flex-col gap-2 items-start">
@@ -83,7 +86,11 @@
               centralizar o QR Code para que seja lido com precisão.
             </p>
           </div>
-          <img src="@/assets/img/PhoneScan.png" alt="Phone Scan" class="w-52" />
+          <img
+            src="@/assets/img/PhoneScan.png"
+            alt="Phone Scan"
+            class="w-52 transition-all"
+          />
         </div>
       </div>
     </div>
@@ -96,4 +103,14 @@ export default {
 };
 </script>
 
-<style></style>
+<style lang="scss" scoped>
+#phone-one,
+#phone-two,
+#phone-three {
+  &:hover {
+    img {
+      transform: scale(0.98);
+    }
+  }
+}
+</style>

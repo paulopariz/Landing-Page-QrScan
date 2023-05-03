@@ -31,21 +31,25 @@
         <div
           class="flex w-full items-center justify-between gap-3 mt-3 max-sm:flex-col max-sm:gap-2"
         >
-          <button
-            class="bg-light py-4 px-5 text-black transition-all max-lg:py-3 max-sm:py-2 btn2"
+          <a
+            href="https://app-qr-scan.vercel.app/"
+            target=" _blank"
+            class="bg-light py-4 px-5 text-center text-black transition-all max-lg:py-3 max-sm:py-2 btn2"
           >
             <span class="transition-all font-medium max-xl:text-sm max-sm:text-xs"
               >Acessar QR-Scan</span
             >
-          </button>
+          </a>
 
-          <button
-            class="bg-black py-4 px-5 text-light transition-all max-lg:py-3 max-sm:py-2 btn1"
+          <a
+            href="https://github.com/paulopariz/QR-Scan"
+            target=" _blank"
+            class="bg-black py-4 px-5 text-center text-light transition-all max-lg:py-3 max-sm:py-2 btn1"
           >
             <span class="transition-all font-medium max-xl:text-sm max-sm:text-xs"
               >Acessar Repositório</span
             >
-          </button>
+          </a>
         </div>
       </div>
 
@@ -64,7 +68,7 @@ export default {
 </script>
 
 <style scoped>
-button {
+a {
   border: none;
   display: inline-block;
   font-size: 15px;
@@ -109,21 +113,21 @@ span {
   border-radius: 6px;
 }
 
-button:hover {
+a:hover {
   color: #000;
 }
 
-button:hover:nth-child(1) {
+a:hover:nth-child(1) {
   color: #fdb623;
 }
 
-button:hover::before {
+a:hover::before {
   left: 0;
   right: 0;
 }
 
 @media (max-width: 642px) {
-  button {
+  a {
     transform: skew(0deg);
   }
   span {

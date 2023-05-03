@@ -34,7 +34,9 @@
             QR-Scan!
           </p>
         </div>
-        <button
+        <a
+          href="https://app-qr-scan.vercel.app/"
+          target=" _blank"
           class="py-4 flex items-center gap-3 bg-black justify-center w-56 uppercase font-medium transition-all max-xl:py-4 max-xl:w-52 rounded-md overflow-hidden max-sm:py-2.5 max-sm:w-44"
         >
           <span class="transition-all text-sm max-sm:text-xs text-white">QR-SCAN</span>
@@ -43,7 +45,7 @@
             alt="Icon Arrow"
             class="w-6 -rotate-45 transition-all max-sm:w-5"
           />
-        </button>
+        </a>
       </div>
       <div class="py-16 px-12 z-40 max-sm:px-6 max-sm:py-8">
         <img
@@ -62,7 +64,7 @@ export default { components: {} };
 </script>
 
 <style lang="scss" scoped>
-button:hover {
+a:hover {
   span {
     transform: translateX(-130px);
   }

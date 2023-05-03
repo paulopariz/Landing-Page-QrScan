@@ -1,5 +1,5 @@
 <template>
-  <div class="h-screen" id="app">
+  <div class="h-screen transition-all" id="app">
     <MyHeader />
 
     <div>
@@ -51,10 +51,6 @@ body {
   user-select: none;
   font-family: "Saira", sans-serif;
   color: #fff;
-}
-
-*::-webkit-scrollbar {
-  width: 0px;
 }
 
 #app {
