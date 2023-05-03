@@ -19,9 +19,9 @@
       </p>
     </div>
 
-    <div class="h-screen flex items-center gap-5 mt-16 max-lg:flex-col max-lg:h-full">
+    <div class="h-screen flex items-center gap-2.5 mt-16 max-lg:flex-col max-lg:h-full">
       <div
-        class="w-2/5 h-full bg-light flex items-center justify-between flex-col gap-5 px-10 py-20 overflow-hidden max-lg:h-1/2 max-lg:w-full max-sm:py-6 max-sm:px-5"
+        class="w-2/5 h-full bg-light rounded-lg flex items-center justify-between flex-col gap-5 px-10 py-20 overflow-hidden max-lg:h-1/2 max-lg:w-full max-sm:py-6 max-sm:px-5"
       >
         <div class="flex flex-col gap-2 w-11/12 items-start max-sm:w-full">
           <h1 class="text-3xl font-medium text-black max-sm:text-2xl">Gerar QR-Code</h1>
@@ -40,9 +40,9 @@
         />
       </div>
 
-      <div class="flex flex-col gap-5 w-3/5 h-full max-lg:w-full">
+      <div class="flex flex-col gap-2.5 w-3/5 h-full max-lg:w-full">
         <div
-          class="w-full h-1/2 bg-black flex flex-col justify-between gap-4 px-20 py-10 overflow-hiddenmax-sm:py-6 max-sm:px-5"
+          class="w-full h-1/2 bg-black rounded-lg flex flex-col justify-between gap-4 px-20 py-10 overflow-hiddenmax-sm:py-6 max-sm:px-5"
         >
           <div class="flex flex-col gap-2 items-start lg:absolute">
             <h1 class="text-3xl font-medium text-white max-sm:text-2xl">
@@ -63,7 +63,7 @@
         </div>
 
         <div
-          class="w-full h-1/2 bg-white-2 flex items-center justify-between px-20 py-5 overflow-hidden max-sm:flex-col max-sm:py-6 max-sm:px-5 max-sm:gap-5"
+          class="w-full h-1/2 bg-white-2 rounded-lg flex items-center justify-between px-20 py-5 overflow-hidden max-sm:flex-col max-sm:py-6 max-sm:px-5 max-sm:gap-5"
         >
           <div class="flex flex-col gap-2 items-start">
             <h1 class="text-3xl font-medium text-black max-sm:text-2xl">

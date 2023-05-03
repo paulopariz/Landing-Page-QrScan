@@ -10,42 +10,9 @@
       <SectionHistory />
 
       <SectionEnter />
-      <br />
-      <br />
-      <br />
-      <br />
-      <br />
-      <br />
-      <br />
-      <br />
-      <br />
-      <br />
-      <br />
-      <br />
-      <br />
-      <br />
-      <br />
-      <br />
-      <br />
-      <br />
-      <br />
-      <br />
-      <br />
-      <br />
-      <br />
-      <br />
-      <br />
-      <br />
-      <br />
-      <br />
-      <br />
-      <br />
-      <br />
-      <br />
-      <br />
-      <br />
+
+      <MyFoorter />
     </div>
-    <br />
   </div>
 </template>
 
@@ -55,6 +22,7 @@ import MyHeader from "./components/MyHeader.vue";
 import SectionPresentation from "./components/SectionPresentation.vue";
 import SectionHistory from "./components/SectionHistory.vue";
 import SectionEnter from "./components/SectionEnter.vue";
+import MyFoorter from "./components/MyFoorter.vue";
 
 export default {
   name: "App",
@@ -64,6 +32,7 @@ export default {
     SectionPresentation,
     SectionHistory,
     SectionEnter,
+    MyFoorter,
   },
 };
 </script>
