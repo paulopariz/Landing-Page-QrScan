@@ -1,7 +1,4 @@
-<div style="display: flex; justify-content: center; gap:12px">
-    <h2>Page QR-Scan</h2>
-    <img width="25px" src="src/assets/img/logo.svg" />
-</div>
+<h2 align= "center">Page QR-Scan <img width="25px" src="src/assets/img/logo.svg" /></h2>
 
 <br>
 
@@ -9,7 +6,7 @@
 
 <br>
 
-
+https://user-images.githubusercontent.com/111146928/236553779-8680f2a7-59ea-459b-b4f0-41ea7e1fd98f.mp4
 
 <br><br>
 
