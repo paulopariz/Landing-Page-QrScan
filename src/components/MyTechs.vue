@@ -1,5 +1,5 @@
 <template>
-  <div>
+  <section>
     <div class="w-full px-36 py-14 mt-36 bg-black max-xl:px-20 max-lg:px-6">
       <div class="flex items-center justify-between max-md:flex-col max-md:gap-7">
         <div
@@ -18,7 +18,7 @@
         </div>
       </div>
     </div>
-  </div>
+  </section>
 </template>
 
 <script>

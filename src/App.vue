@@ -1,19 +1,17 @@
 <template>
-  <div class="h-screen transition-all" id="app">
+  <main class="transition-all" id="appContent">
     <MyHeader />
 
-    <div>
-      <MyTechs />
+    <MyTechs />
 
-      <SectionPresentation />
+    <SectionPresentation />
 
-      <SectionHistory />
+    <SectionHistory />
 
-      <SectionEnter />
+    <SectionEnter />
 
-      <MyFoorter />
-    </div>
-  </div>
+    <MyFoorter />
+  </main>
 </template>
 
 <script>
@@ -53,7 +51,7 @@ body {
   color: #fff;
 }
 
-#app {
+#appContent {
   animation: app 1.2s both;
 }
 

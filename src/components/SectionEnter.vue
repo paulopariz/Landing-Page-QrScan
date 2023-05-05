@@ -1,5 +1,5 @@
 <template>
-  <div class="w-full bg-black">
+  <section class="w-full bg-black">
     <div
       class="w-9/12 h-[500px] rounded-lg bg-light m-auto overflow-hidden -mt-[200px] flex justify-between items-center max-lg:h-[820px] max-lg:flex-col max-lg:-mt-[280px] max-md:w-11/12 max-sm:w-full max-xl:w-5/6 max-sm:h-[690px] max-mn:h-[650px] max-sm:rounded-none"
     >
@@ -56,7 +56,7 @@
         />
       </div>
     </div>
-  </div>
+  </section>
 </template>
 
 <script>

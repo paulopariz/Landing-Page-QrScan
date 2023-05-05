@@ -1,5 +1,5 @@
 <template>
-  <footer aria-label="Site Footer" class="bg-black pt-36">
+  <footer aria-label="Site Footer" class="bg-black pt-36 -mt-[0.2px]">
     <div
       class="relative mx-auto max-w-screen-xl px-4 py-16 sm:px-6 lg:px-8 lg:pt-24"
       data-aos="fade-up"

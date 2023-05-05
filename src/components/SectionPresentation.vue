@@ -42,7 +42,7 @@
         <img
           src="@/assets/img/PhoneGenerate.png"
           alt="Phone Generate"
-          class="w-72 max-lg:w-56 max-sm:w-48 transition-all"
+          class="w-72 max-xl:w-64 max-lg:w-56 max-sm:w-48 transition-all"
         />
       </div>
 
@@ -50,7 +50,7 @@
         <div
           data-aos="fade-up"
           id="phone-two"
-          class="w-full h-1/2 bg-black rounded-lg flex flex-col justify-between gap-4 px-20 py-10 overflow-hiddenmax-sm:py-6 max-sm:px-5"
+          class="w-full h-1/2 bg-black rounded-lg flex flex-col justify-between gap-4 px-20 py-10 overflow-hidden max-sm:py-6 max-sm:px-5"
         >
           <div class="flex flex-col gap-2 items-start lg:absolute">
             <h1 class="text-3xl font-medium text-white max-sm:text-2xl">
@@ -66,7 +66,7 @@
           <img
             src="@/assets/img/PhoneGenerated.png"
             alt="Phone Generated"
-            class="w-[500px] m-auto max-sm:w-full transition-all -z-50"
+            class="w-[500px] max-xl:w-[450px] m-auto max-sm:w-full transition-all -z-50"
           />
         </div>
 
@@ -89,7 +89,7 @@
           <img
             src="@/assets/img/PhoneScan.png"
             alt="Phone Scan"
-            class="w-52 transition-all"
+            class="w-52 max-xl:w-48 transition-all"
           />
         </div>
       </div>

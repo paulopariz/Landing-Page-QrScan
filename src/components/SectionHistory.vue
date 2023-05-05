@@ -1,5 +1,5 @@
 <template>
-  <div
+  <section
     class="w-full p-20 pb-96 max-lg:pb-[450px] bg-black mt-36 m-auto flex items-center justify-between max-lg:flex-col max-lg:items-center max-lg:gap-10 max-xl:px-12 max-md:px-8"
   >
     <img
@@ -48,7 +48,7 @@
         </div>
       </div>
     </div>
-  </div>
+  </section>
 </template>
 
 <script>
